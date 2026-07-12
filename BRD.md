@@ -1,107 +1,29 @@
-Business Requirements Document (BRD)
-Project Name:
+# **"Recipe & Meal Organizer"**
 
-Recipe & Meal Organizer
+## **1. Business Requirements Document (BRD)**
 
-Objective:
+**Project Name:** Recipe & Meal Organizer
 
-Develop a web-based application that allows users to save, organize, and manage recipes efficiently. The application should categorize recipes (such as Breakfast, Lunch, Dinner, Vegan, Desserts, etc.), help users plan weekly meals, and automatically generate a shopping list based on the selected meal plan.
+**Objective:** Provide users with a web-based interface to save, organize, and manage recipes, categorize them (Breakfast, Lunch, Dinner, Vegan, etc.), plan weekly meals, and automatically generate a shopping list based on selected recipes.
 
-Functional Requirements
-1. User Authentication
+### **Functional Requirements:**
 
-Users must be able to:
+**User Authentication:** Users must be able to sign up and log in securely.
 
-Register a new account.
-Log in securely.
-Log out of the application.
-Access only their own recipes and meal plans.
-2. Recipe Management
+**Recipe Management:** Users must be able to add, edit, delete, and view their recipes with ingredients, instructions, and categories.
 
-Users must be able to:
+**Recipe Categorization:** Users must be able to organize recipes into categories such as Breakfast, Lunch, Dinner, Vegan, Desserts, etc.
 
-Add new recipes.
-Edit existing recipes.
-Delete recipes.
-View all saved recipes.
+**Meal Planner:** Users must be able to create and manage a weekly meal plan by selecting recipes for each day.
 
-Each recipe should include:
+**Shopping List:** Users must be able to generate a shopping list automatically from the selected recipes in their weekly meal plan.
 
-Recipe Name
-Ingredients
-Cooking Instructions
-Preparation Time
-Cooking Time
-Servings
-Category
-Optional Image
-3. Recipe Categorization
+### **Non-Functional Requirements:**
 
-Users must be able to organize recipes into categories such as:
+**Security:** Passwords must be hashed (Bcrypt).
 
-Breakfast
-Lunch
-Dinner
-Snacks
-Desserts
-Vegan
-Vegetarian
-Non-Vegetarian
-Healthy Meals
+**Performance:** Recipe data and shopping lists must load in under 1 second.
 
-Users should also be able to filter recipes based on these categories.
+**Responsiveness:** Must be fully functional on both mobile and desktop browsers.
 
-4. Search Recipes
-
-Users must be able to:
-
-Search recipes by name.
-Search recipes using ingredients.
-Filter recipes by category.
-5. Weekly Meal Planner
-
-Users must be able to:
-
-Select recipes for each day of the week.
-Assign recipes for Breakfast, Lunch, Dinner, and Snacks.
-Modify or replace planned meals anytime.
-6. Automatic Shopping List
-
-The system must:
-
-Generate a shopping list from the selected weekly meal plan.
-Combine duplicate ingredients automatically.
-Display ingredient quantities.
-Allow users to mark purchased items.
-7. Favorites
-
-Users must be able to:
-
-Mark recipes as favorites.
-View all favorite recipes separately.
-8. Recipe History
-
-Users should be able to:
-
-View recently added recipes.
-View recently prepared meals.
-Non-Functional Requirements
-Security
-User passwords must be securely encrypted.
-Only authenticated users can access personal recipes and meal plans.
-Performance
-Recipe search results should load within 2 seconds.
-Shopping list generation should complete within 2 seconds.
-Responsiveness
-The application must work smoothly on:
-Desktop
-Tablet
-Mobile devices
-Reliability
-User recipes and meal plans must be stored securely without data loss.
-The system should maintain high availability.
-Usability
-The interface should be simple and user-friendly.
-Users should be able to add recipes and generate shopping lists with minimal steps.
-Scalability
-The application should support a growing number of users and recipes without significant performance degradation.
+This follows the same structure and level of detail as the BRD shown in your sample, adapted for the **Recipe & Meal Organizer** project.
