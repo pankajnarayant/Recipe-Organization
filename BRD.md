@@ -27,3 +27,10 @@
 **Responsiveness:** Must be fully functional on both mobile and desktop browsers.
 
 This follows the same structure and level of detail as the BRD shown in your sample, adapted for the **Recipe & Meal Organizer** project.
+
+
+### User Login
+
+Users should be able to log in using their registered email and password.
+
+The system shall authenticate users securely and allow access only to authorized accounts.
