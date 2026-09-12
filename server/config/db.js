@@ -6,9 +6,12 @@ global.isMongoConnected = false;
 export const connectDB = async () => {
   const uri = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/smartplate';
 
+  const isAtlas = uri.includes('mongodb+srv://') || uri.includes('mongodb://');
+  const timeoutMs = uri.includes('127.0.0.1') || uri.includes('localhost') ? 2000 : 10000;
+
   try {
     const conn = await mongoose.connect(uri, {
-      serverSelectionTimeoutMS: 1500,
+      serverSelectionTimeoutMS: timeoutMs,
     });
     global.isMongoConnected = true;
     console.log(`[Database] Connected to external MongoDB instance: ${conn.connection.host}`);
