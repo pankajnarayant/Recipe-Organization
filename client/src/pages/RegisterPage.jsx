@@ -100,7 +100,7 @@ const RegisterPage = () => {
             <input
               type="text"
               className="form-input"
-              placeholder="e.g. Manikanta Sai"
+              placeholder="Enter your name"
               value={name}
               onChange={(e) => setName(e.target.value)}
               required
