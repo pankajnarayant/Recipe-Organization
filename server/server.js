@@ -7,12 +7,15 @@ import recipeRoutes from './routes/recipeRoutes.js';
 import mealPlanRoutes from './routes/mealPlanRoutes.js';
 import shoppingListRoutes from './routes/shoppingListRoutes.js';
 import { errorHandler } from './middleware/errorHandler.js';
+import { autoSeedIfEmpty } from './seed/autoSeed.js';
 
 // Load environment variables
 dotenv.config();
 
-// Connect to MongoDB
-connectDB();
+// Connect to MongoDB and auto-seed if clean database
+connectDB().then(() => {
+  autoSeedIfEmpty();
+});
 
 const app = express();
 
@@ -57,6 +60,19 @@ app.get('/api/health', (req, res) => {
     timestamp: new Date().toISOString(),
     service: 'Smart Plate API',
   });
+});
+
+// Automated Seed Endpoint
+app.get('/api/seed', async (req, res) => {
+  try {
+    await autoSeedIfEmpty();
+    res.status(200).json({
+      success: true,
+      message: 'Database auto-seed check complete. 15 recipes and Chef Alex ready.',
+    });
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
+  }
 });
 
 // Mount Routes

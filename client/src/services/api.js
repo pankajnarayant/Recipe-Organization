@@ -1,6 +1,11 @@
 import axios from 'axios';
 
-let rawBaseUrl = (import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000/api').trim().replace(/\/$/, '');
+const isLocal =
+  typeof window !== 'undefined' &&
+  (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1');
+const DEFAULT_URL = isLocal ? 'http://localhost:5000/api' : 'https://smart-plate-rzpw.onrender.com/api';
+
+let rawBaseUrl = (import.meta.env.VITE_API_BASE_URL || DEFAULT_URL).trim().replace(/\/$/, '');
 const API_BASE_URL = rawBaseUrl.endsWith('/api') ? rawBaseUrl : `${rawBaseUrl}/api`;
 
 const api = axios.create({
