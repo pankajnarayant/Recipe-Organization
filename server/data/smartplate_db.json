@@ -1,0 +1,2310 @@
+{
+  "users": [
+    {
+      "name": "Chef Alex",
+      "email": "chef@smartplate.com",
+      "password": "$2b$10$h1kah4EwPECkwnOofxhjgeB/6Bz28qmUz00YwRn8X1Y3/FsjsT.xO",
+      "_id": "6aa547db62d5cabdd02b9783",
+      "createdAt": "2026-09-12T12:38:51.154Z",
+      "updatedAt": "2026-09-12T12:38:51.317Z",
+      "favorites": [
+        "6aa547dbcb9056507ed02465",
+        "6aa547db37da2da4a389b443",
+        "6aa547db2df6adaab8436ee9"
+      ]
+    },
+    {
+      "name": "Tester Chef",
+      "email": "testuser_1789223583970@smartplate.com",
+      "password": "$2b$10$mp3C56KK3nJsXfqqrM4i.Oa5iREIl/H/n9MSQs8wp61.xLVvcCHEm",
+      "_id": "6aa562a002d0e76a8ebffc94",
+      "createdAt": "2026-09-12T14:33:04.065Z",
+      "updatedAt": "2026-09-12T14:33:04.509Z",
+      "favorites": [
+        "6aa562a071b41ba91028716a"
+      ]
+    },
+    {
+      "name": "Tester Chef",
+      "email": "testuser_1789223892654@smartplate.com",
+      "password": "$2b$10$wZpGLUEM3gPY2CfU4SCYB.l41xG5Zw.YkeIzH3uF7OYoPSNuIzy5.",
+      "_id": "6aa563d412fed80aabcd74e8",
+      "createdAt": "2026-09-12T14:38:12.751Z",
+      "updatedAt": "2026-09-12T14:38:13.065Z",
+      "favorites": [
+        "6aa563d50937f01dbc7aa4ef"
+      ]
+    },
+    {
+      "name": "Tester Chef",
+      "email": "testuser_1789224003275@smartplate.com",
+      "password": "$2b$10$7bL.uMdrJVs0ycCQzTWRWepv7FkcNq8gkkVyMUFsjyMq5ostT.lBW",
+      "_id": "6aa564433c1c7c79d9ceb5ce",
+      "createdAt": "2026-09-12T14:40:03.401Z",
+      "updatedAt": "2026-09-12T14:40:03.975Z",
+      "favorites": [
+        "6aa5644385f3cfb0f5126ed0"
+      ]
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Avocado & Poached Egg Sourdough",
+      "description": "Crisp toasted artisan sourdough topped with creamy mashed avocado, perfectly runny poached eggs, red pepper flakes, and microgreens.",
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=800&q=80",
+      "category": "Breakfast",
+      "tags": [
+        "Vegetarian",
+        "High Protein",
+        "Quick Meals",
+        "Healthy"
+      ],
+      "prepTime": 10,
+      "cookTime": 10,
+      "servings": 2,
+      "difficulty": "Easy",
+      "ingredients": [
+        {
+          "name": "Sourdough Bread",
+          "quantity": 2,
+          "unit": "slices"
+        },
+        {
+          "name": "Ripe Avocado",
+          "quantity": 1,
+          "unit": "pieces"
+        },
+        {
+          "name": "Fresh Eggs",
+          "quantity": 2,
+          "unit": "pieces"
+        },
+        {
+          "name": "Lemon Juice",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Red Pepper Flakes",
+          "quantity": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "Black Pepper",
+          "quantity": 0.25,
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        "Toast sourdough slices in a toaster or skillet until golden and crisp.",
+        "Cut avocado, remove pit, and mash flesh in a bowl with lemon juice, salt, and pepper.",
+        "Bring a small pot of water to a gentle simmer with a drop of vinegar, create a gentle whirlpool, and crack eggs in to poach for 3 minutes.",
+        "Spread mashed avocado generously over warm toast slices.",
+        "Carefully top each slice with a drained poached egg, season with red pepper flakes and freshly cracked black pepper."
+      ],
+      "nutrition": {
+        "calories": 380,
+        "protein": 16,
+        "carbs": 32,
+        "fat": 22
+      },
+      "owner": "6aa547db62d5cabdd02b9783",
+      "isPublic": true,
+      "_id": "6aa547dbcb9056507ed02465",
+      "createdAt": "2026-09-12T12:38:51.316Z",
+      "updatedAt": "2026-09-12T12:38:51.316Z"
+    },
+    {
+      "title": "Overnight Berry Chia Oats",
+      "description": "Hearty rolled oats infused with almond milk, chia seeds, pure maple syrup, and topped with vibrant fresh blueberries and raspberries.",
+      "image": "https://images.unsplash.com/photo-1517673400267-0251440c45dc?w=800&q=80",
+      "category": "Breakfast",
+      "tags": [
+        "Vegan",
+        "Vegetarian",
+        "Healthy",
+        "Quick Meals",
+        "Low Carb"
+      ],
+      "prepTime": 10,
+      "cookTime": 0,
+      "servings": 2,
+      "difficulty": "Easy",
+      "ingredients": [
+        {
+          "name": "Rolled Oats",
+          "quantity": 1,
+          "unit": "cups"
+        },
+        {
+          "name": "Almond Milk",
+          "quantity": 1.5,
+          "unit": "cups"
+        },
+        {
+          "name": "Chia Seeds",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Maple Syrup",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Vanilla Extract",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "Blueberries",
+          "quantity": 0.5,
+          "unit": "cups"
+        },
+        {
+          "name": "Raspberries",
+          "quantity": 0.5,
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        "In a medium bowl or mason jars, combine rolled oats, chia seeds, almond milk, maple syrup, and vanilla extract.",
+        "Stir vigorously until chia seeds are evenly distributed and not clumped at the bottom.",
+        "Seal tightly with lids and refrigerate for at least 4 hours, preferably overnight.",
+        "Before serving, give oats a good stir and top with generous handfuls of fresh blueberries and raspberries."
+      ],
+      "nutrition": {
+        "calories": 310,
+        "protein": 9,
+        "carbs": 54,
+        "fat": 8
+      },
+      "owner": "6aa547db62d5cabdd02b9783",
+      "isPublic": true,
+      "_id": "6aa547db308e7d4cd59a4cec",
+      "createdAt": "2026-09-12T12:38:51.316Z",
+      "updatedAt": "2026-09-12T12:38:51.316Z"
+    },
+    {
+      "title": "Fluffy Banana Protein Pancakes",
+      "description": "Golden, naturally sweet banana pancakes loaded with whey protein, wholesome rolled oats, and served with pure maple syrup.",
+      "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=800&q=80",
+      "category": "Breakfast",
+      "tags": [
+        "High Protein",
+        "Vegetarian",
+        "Quick Meals"
+      ],
+      "prepTime": 10,
+      "cookTime": 15,
+      "servings": 2,
+      "difficulty": "Easy",
+      "ingredients": [
+        {
+          "name": "Ripe Banana",
+          "quantity": 2,
+          "unit": "pieces"
+        },
+        {
+          "name": "Eggs",
+          "quantity": 2,
+          "unit": "pieces"
+        },
+        {
+          "name": "Oat Flour",
+          "quantity": 1,
+          "unit": "cups"
+        },
+        {
+          "name": "Protein Powder",
+          "quantity": 1,
+          "unit": "cups"
+        },
+        {
+          "name": "Baking Powder",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "Cinnamon",
+          "quantity": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "Butter",
+          "quantity": 1,
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        "Mash ripe bananas in a large mixing bowl until smooth.",
+        "Whisk in the eggs until frothy and well incorporated.",
+        "Add oat flour, protein powder, baking powder, and ground cinnamon; stir gently into a thick batter.",
+        "Melt a knob of butter in a non-stick skillet over medium heat.",
+        "Pour batter in 1/4-cup rounds and cook for 2-3 minutes until bubbles form, then flip and cook for 2 minutes until golden."
+      ],
+      "nutrition": {
+        "calories": 420,
+        "protein": 32,
+        "carbs": 52,
+        "fat": 10
+      },
+      "owner": "6aa547db62d5cabdd02b9783",
+      "isPublic": true,
+      "_id": "6aa547db263b818826fc0dd7",
+      "createdAt": "2026-09-12T12:38:51.316Z",
+      "updatedAt": "2026-09-12T12:38:51.316Z"
+    },
+    {
+      "title": "Mediterranean Chickpea Crunch Bowl",
+      "description": "Crisp cucumbers, juicy cherry tomatoes, kalamata olives, tangy feta cheese, and tender spiced chickpeas tossed in lemon oregano vinaigrette.",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&q=80",
+      "category": "Lunch",
+      "tags": [
+        "Vegetarian",
+        "Healthy",
+        "Quick Meals",
+        "High Protein"
+      ],
+      "prepTime": 15,
+      "cookTime": 0,
+      "servings": 2,
+      "difficulty": "Easy",
+      "ingredients": [
+        {
+          "name": "Chickpeas",
+          "quantity": 1,
+          "unit": "cans"
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 1,
+          "unit": "pieces"
+        },
+        {
+          "name": "Cherry Tomatoes",
+          "quantity": 1,
+          "unit": "cups"
+        },
+        {
+          "name": "Red Onion",
+          "quantity": 0.5,
+          "unit": "pieces"
+        },
+        {
+          "name": "Kalamata Olives",
+          "quantity": 0.5,
+          "unit": "cups"
+        },
+        {
+          "name": "Feta Cheese",
+          "quantity": 0.5,
+          "unit": "cups"
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Lemon Juice",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Dried Oregano",
+          "quantity": 1,
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        "Rinse and thoroughly drain the canned chickpeas.",
+        "Dice cucumber and halve cherry tomatoes. Finely slice the red onion.",
+        "In a large mixing bowl, combine chickpeas, cucumber, cherry tomatoes, red onion, and kalamata olives.",
+        "Whisk together olive oil, fresh lemon juice, dried oregano, salt, and black pepper in a small jar.",
+        "Pour vinaigrette over bowl, toss gently, and crumble fresh feta cheese on top right before serving."
+      ],
+      "nutrition": {
+        "calories": 410,
+        "protein": 15,
+        "carbs": 42,
+        "fat": 21
+      },
+      "owner": "6aa547db62d5cabdd02b9783",
+      "isPublic": true,
+      "_id": "6aa547db37da2da4a389b443",
+      "createdAt": "2026-09-12T12:38:51.316Z",
+      "updatedAt": "2026-09-12T12:38:51.316Z"
+    },
+    {
+      "title": "Grilled Lemon Herb Chicken Rice Bowl",
+      "description": "Juicy marinated chicken breast seared to golden perfection, served over fragrant jasmine rice with steamed broccoli and lemon wedges.",
+      "image": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=800&q=80",
+      "category": "Lunch",
+      "tags": [
+        "High Protein",
+        "Healthy",
+        "Non-Vegetarian"
+      ],
+      "prepTime": 15,
+      "cookTime": 20,
+      "servings": 2,
+      "difficulty": "Medium",
+      "ingredients": [
+        {
+          "name": "Chicken Breast",
+          "quantity": 2,
+          "unit": "pieces"
+        },
+        {
+          "name": "Jasmine Rice",
+          "quantity": 1,
+          "unit": "cups"
+        },
+        {
+          "name": "Broccoli",
+          "quantity": 1,
+          "unit": "pieces"
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Lemon Juice",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Garlic",
+          "quantity": 3,
+          "unit": "cloves"
+        },
+        {
+          "name": "Dried Thyme",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "Salt",
+          "quantity": 1,
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        "Rinse jasmine rice, add 1.75 cups water with a pinch of salt, and cook on low heat covered for 15 minutes.",
+        "Whisk olive oil, lemon juice, minced garlic, thyme, salt, and pepper in a shallow dish.",
+        "Pound chicken breasts to even thickness, coat thoroughly with marinade, and rest for 10 minutes.",
+        "Heat a grill pan or cast-iron skillet over medium-high heat and sear chicken for 6-7 minutes per side until 165°F internal temperature.",
+        "Cut broccoli into florets and steam for 4 minutes until vibrant green and tender-crisp.",
+        "Slice rested chicken and arrange over fluffy rice with steamed broccoli and lemon slices."
+      ],
+      "nutrition": {
+        "calories": 520,
+        "protein": 48,
+        "carbs": 54,
+        "fat": 12
+      },
+      "owner": "6aa547db62d5cabdd02b9783",
+      "isPublic": true,
+      "_id": "6aa547dbd10311d1b4de33c5",
+      "createdAt": "2026-09-12T12:38:51.316Z",
+      "updatedAt": "2026-09-12T12:38:51.316Z"
+    },
+    {
+      "title": "Quinoa Power Bowl with Tahini Drizzle",
+      "description": "Fluffy rainbow quinoa, roasted sweet potatoes, crisp chickpeas, massaged kale, and creamy garlic tahini sauce.",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
+      "category": "Lunch",
+      "tags": [
+        "Vegan",
+        "Vegetarian",
+        "Healthy",
+        "High Protein"
+      ],
+      "prepTime": 15,
+      "cookTime": 25,
+      "servings": 2,
+      "difficulty": "Medium",
+      "ingredients": [
+        {
+          "name": "Quinoa",
+          "quantity": 1,
+          "unit": "cups"
+        },
+        {
+          "name": "Sweet Potato",
+          "quantity": 1,
+          "unit": "pieces"
+        },
+        {
+          "name": "Kale",
+          "quantity": 2,
+          "unit": "cups"
+        },
+        {
+          "name": "Tahini",
+          "quantity": 3,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Garlic",
+          "quantity": 1,
+          "unit": "cloves"
+        },
+        {
+          "name": "Lemon Juice",
+          "quantity": 1,
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        "Preheat oven to 400°F (200°C). Peel and cube sweet potato, toss in olive oil and roast for 25 minutes.",
+        "Simmer rinsed quinoa in 2 cups of water for 15 minutes until tender and liquid is absorbed.",
+        "Chop kale into bite-sized ribbons and massage with a drop of olive oil until tender.",
+        "Whisk tahini with lemon juice, grated garlic, and warm water until a smooth drizzle forms.",
+        "Assemble bowls with warm quinoa, roasted sweet potatoes, and kale; finish with generous tahini sauce."
+      ],
+      "nutrition": {
+        "calories": 460,
+        "protein": 14,
+        "carbs": 68,
+        "fat": 16
+      },
+      "owner": "6aa547db62d5cabdd02b9783",
+      "isPublic": true,
+      "_id": "6aa547dba570bb47448c6f9a",
+      "createdAt": "2026-09-12T12:38:51.316Z",
+      "updatedAt": "2026-09-12T12:38:51.316Z"
+    },
+    {
+      "title": "Creamy Garlic Tomato Basil Pasta",
+      "description": "Al dente penne pasta coated in a luxurious sun-ripened tomato basil sauce with garlic cream and shaved parmesan cheese.",
+      "image": "https://images.unsplash.com/photo-1621996346565-e3d5d628169e?w=800&q=80",
+      "category": "Dinner",
+      "tags": [
+        "Vegetarian",
+        "Quick Meals"
+      ],
+      "prepTime": 10,
+      "cookTime": 20,
+      "servings": 4,
+      "difficulty": "Easy",
+      "ingredients": [
+        {
+          "name": "Penne Pasta",
+          "quantity": 1,
+          "unit": "lb"
+        },
+        {
+          "name": "Crushed Tomatoes",
+          "quantity": 1,
+          "unit": "cans"
+        },
+        {
+          "name": "Heavy Cream",
+          "quantity": 0.5,
+          "unit": "cups"
+        },
+        {
+          "name": "Garlic",
+          "quantity": 4,
+          "unit": "cloves"
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Fresh Basil",
+          "quantity": 0.5,
+          "unit": "cups"
+        },
+        {
+          "name": "Parmesan Cheese",
+          "quantity": 0.5,
+          "unit": "cups"
+        },
+        {
+          "name": "Salt",
+          "quantity": 1,
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        "Bring a large pot of salted water to a rolling boil and cook penne pasta until al dente; reserve 1/2 cup pasta water.",
+        "In a wide skillet, heat olive oil over medium heat and sauté minced garlic for 1 minute until fragrant.",
+        "Pour in crushed tomatoes, season with salt and pepper, and simmer gently for 10 minutes.",
+        "Lower heat, stir in heavy cream and fresh torn basil leaves until smooth and velvety.",
+        "Toss drained pasta into sauce with grated parmesan, adding reserved pasta water as needed for a glossy coating."
+      ],
+      "nutrition": {
+        "calories": 540,
+        "protein": 18,
+        "carbs": 72,
+        "fat": 20
+      },
+      "owner": "6aa547db62d5cabdd02b9783",
+      "isPublic": true,
+      "_id": "6aa547db2df6adaab8436ee9",
+      "createdAt": "2026-09-12T12:38:51.316Z",
+      "updatedAt": "2026-09-12T12:38:51.316Z"
+    },
+    {
+      "title": "Paneer Butter Masala & Basmati Rice",
+      "description": "Tender paneer cubes simmered in a silky, rich makhani gravy of ripe tomatoes, butter, aromatic spices, and paired with basmati rice.",
+      "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=800&q=80",
+      "category": "Dinner",
+      "tags": [
+        "Vegetarian",
+        "High Protein"
+      ],
+      "prepTime": 20,
+      "cookTime": 25,
+      "servings": 3,
+      "difficulty": "Medium",
+      "ingredients": [
+        {
+          "name": "Paneer",
+          "quantity": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Tomato",
+          "quantity": 4,
+          "unit": "pieces"
+        },
+        {
+          "name": "Onion",
+          "quantity": 2,
+          "unit": "pieces"
+        },
+        {
+          "name": "Butter",
+          "quantity": 3,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Heavy Cream",
+          "quantity": 0.25,
+          "unit": "cups"
+        },
+        {
+          "name": "Garlic",
+          "quantity": 4,
+          "unit": "cloves"
+        },
+        {
+          "name": "Ginger",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Garam Masala",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "Basmati Rice",
+          "quantity": 1.5,
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        "Cook basmati rice with 3 cups of water and a pinch of salt until grains are separate and fluffy.",
+        "Sauté chopped onions, ginger, and garlic in 1 tbsp butter, then add chopped tomatoes and cook until soft.",
+        "Cool tomato mixture slightly and blend into a silk-smooth puree.",
+        "Melt remaining butter in skillet, add pureed gravy, garam masala, and simmer on low for 8 minutes.",
+        "Add paneer cubes and cream, simmer for 4 minutes until warm, and serve alongside piping hot basmati rice."
+      ],
+      "nutrition": {
+        "calories": 590,
+        "protein": 22,
+        "carbs": 58,
+        "fat": 30
+      },
+      "owner": "6aa547db62d5cabdd02b9783",
+      "isPublic": true,
+      "_id": "6aa547db1f6dd7d15b715682",
+      "createdAt": "2026-09-12T12:38:51.316Z",
+      "updatedAt": "2026-09-12T12:38:51.316Z"
+    },
+    {
+      "title": "Honey Garlic Glazed Salmon",
+      "description": "Crispy skin-on salmon fillets seared and glazed in a sticky, sweet-savory honey soy garlic sauce with sesame seeds.",
+      "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=800&q=80",
+      "category": "Dinner",
+      "tags": [
+        "High Protein",
+        "Quick Meals",
+        "Healthy",
+        "Non-Vegetarian"
+      ],
+      "prepTime": 10,
+      "cookTime": 15,
+      "servings": 2,
+      "difficulty": "Easy",
+      "ingredients": [
+        {
+          "name": "Salmon Fillets",
+          "quantity": 2,
+          "unit": "pieces"
+        },
+        {
+          "name": "Honey",
+          "quantity": 3,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Garlic",
+          "quantity": 3,
+          "unit": "cloves"
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Sesame Seeds",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "Green Onion",
+          "quantity": 2,
+          "unit": "stalks"
+        }
+      ],
+      "instructions": [
+        "Pat salmon fillets dry with paper towels and season with salt and pepper.",
+        "Whisk honey, soy sauce, and minced garlic together in a small ramekin.",
+        "Heat olive oil in a non-stick skillet over medium-high heat until shimmering.",
+        "Place salmon skin-side down and sear undisturbed for 4-5 minutes until crispy.",
+        "Flip fillets, pour in honey garlic sauce, and baste continuously for 3 minutes as glaze thickens.",
+        "Garnish with toasted sesame seeds and thinly sliced green onions."
+      ],
+      "nutrition": {
+        "calories": 480,
+        "protein": 38,
+        "carbs": 24,
+        "fat": 26
+      },
+      "owner": "6aa547db62d5cabdd02b9783",
+      "isPublic": true,
+      "_id": "6aa547db9f160ecac002eff7",
+      "createdAt": "2026-09-12T12:38:51.316Z",
+      "updatedAt": "2026-09-12T12:38:51.316Z"
+    },
+    {
+      "title": "Crispy Tofu & Rainbow Veggie Stir-Fry",
+      "description": "Golden pan-crisped tofu cubes tossed with crisp bell peppers, snap peas, and broccoli in a savory ginger soy stir-fry sauce.",
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+      "category": "Dinner",
+      "tags": [
+        "Vegan",
+        "Vegetarian",
+        "Healthy",
+        "Quick Meals"
+      ],
+      "prepTime": 15,
+      "cookTime": 15,
+      "servings": 3,
+      "difficulty": "Easy",
+      "ingredients": [
+        {
+          "name": "Firm Tofu",
+          "quantity": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Bell Pepper",
+          "quantity": 2,
+          "unit": "pieces"
+        },
+        {
+          "name": "Broccoli",
+          "quantity": 1,
+          "unit": "pieces"
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 3,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Sesame Oil",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Cornstarch",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Ginger",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Garlic",
+          "quantity": 2,
+          "unit": "cloves"
+        }
+      ],
+      "instructions": [
+        "Press tofu with a heavy skillet to remove excess moisture, cut into 1-inch cubes, and dust in cornstarch.",
+        "Heat sesame oil in a wok or large pan; fry tofu cubes until all sides are deep golden and crunchy (8 mins). Remove.",
+        "In same wok, toss sliced bell pepper, broccoli florets, minced garlic, and ginger over high heat for 4 minutes.",
+        "Whisk soy sauce with 2 tbsp water, pour into wok, and return crispy tofu.",
+        "Toss vigorously for 1-2 minutes until vegetables are glazed and tender-crisp."
+      ],
+      "nutrition": {
+        "calories": 340,
+        "protein": 19,
+        "carbs": 22,
+        "fat": 20
+      },
+      "owner": "6aa547db62d5cabdd02b9783",
+      "isPublic": true,
+      "_id": "6aa547db47bcc89e4d157548",
+      "createdAt": "2026-09-12T12:38:51.316Z",
+      "updatedAt": "2026-09-12T12:38:51.316Z"
+    },
+    {
+      "title": "Comforting Red Lentil Dahl",
+      "description": "Creamy spiced Indian red lentils simmered with coconut milk, turmeric, cumin, cumin seeds, and fresh baby spinach.",
+      "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=800&q=80",
+      "category": "Dinner",
+      "tags": [
+        "Vegan",
+        "Vegetarian",
+        "Healthy",
+        "Budget Friendly",
+        "High Protein"
+      ],
+      "prepTime": 10,
+      "cookTime": 25,
+      "servings": 4,
+      "difficulty": "Easy",
+      "ingredients": [
+        {
+          "name": "Red Lentils",
+          "quantity": 1.5,
+          "unit": "cups"
+        },
+        {
+          "name": "Coconut Milk",
+          "quantity": 1,
+          "unit": "cans"
+        },
+        {
+          "name": "Tomato",
+          "quantity": 2,
+          "unit": "pieces"
+        },
+        {
+          "name": "Onion",
+          "quantity": 1,
+          "unit": "pieces"
+        },
+        {
+          "name": "Garlic",
+          "quantity": 3,
+          "unit": "cloves"
+        },
+        {
+          "name": "Turmeric",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "Cumin",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "Spinach",
+          "quantity": 2,
+          "unit": "cups"
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 1,
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        "Heat olive oil in a deep saucepot and sauté diced onion and minced garlic until translucent.",
+        "Add turmeric and cumin, stirring for 30 seconds until intensely aromatic.",
+        "Add diced tomatoes, rinsed red lentils, coconut milk, and 2.5 cups of water; bring to a boil.",
+        "Reduce heat to low, cover, and gently simmer for 20 minutes until lentils dissolve into a creamy stew.",
+        "Fold in baby spinach until wilted, season with sea salt, and ladle into bowls."
+      ],
+      "nutrition": {
+        "calories": 370,
+        "protein": 18,
+        "carbs": 48,
+        "fat": 12
+      },
+      "owner": "6aa547db62d5cabdd02b9783",
+      "isPublic": true,
+      "_id": "6aa547db3fc3948d1ed4a19c",
+      "createdAt": "2026-09-12T12:38:51.316Z",
+      "updatedAt": "2026-09-12T12:38:51.316Z"
+    },
+    {
+      "title": "Fresh Guacamole & Crudité Plate",
+      "description": "Chunky handmade guacamole with ripe avocados, lime juice, cilantro, jalapeño, and served with crisp raw vegetable sticks.",
+      "image": "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?w=800&q=80",
+      "category": "Snacks",
+      "tags": [
+        "Vegan",
+        "Vegetarian",
+        "Quick Meals",
+        "Healthy",
+        "Low Carb"
+      ],
+      "prepTime": 10,
+      "cookTime": 0,
+      "servings": 2,
+      "difficulty": "Easy",
+      "ingredients": [
+        {
+          "name": "Ripe Avocado",
+          "quantity": 2,
+          "unit": "pieces"
+        },
+        {
+          "name": "Lime Juice",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Tomato",
+          "quantity": 1,
+          "unit": "pieces"
+        },
+        {
+          "name": "Red Onion",
+          "quantity": 0.25,
+          "unit": "pieces"
+        },
+        {
+          "name": "Fresh Cilantro",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Carrot",
+          "quantity": 2,
+          "unit": "pieces"
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 1,
+          "unit": "pieces"
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        "Scoop avocado flesh into a mortar or bowl and coarsely mash with lime juice and salt.",
+        "Finely dice the tomato, red onion, and fresh cilantro leaves.",
+        "Fold diced vegetables into the mashed avocado gently to keep nice texture.",
+        "Cut carrots and cucumber into crunchy dipper sticks.",
+        "Serve fresh guacamole chilled with crisp vegetable sticks."
+      ],
+      "nutrition": {
+        "calories": 260,
+        "protein": 4,
+        "carbs": 20,
+        "fat": 21
+      },
+      "owner": "6aa547db62d5cabdd02b9783",
+      "isPublic": true,
+      "_id": "6aa547dbcdbc53d6c9522786",
+      "createdAt": "2026-09-12T12:38:51.316Z",
+      "updatedAt": "2026-09-12T12:38:51.316Z"
+    },
+    {
+      "title": "Greek Yogurt Berry Crunch Parfait",
+      "description": "Thick, creamy Greek yogurt layered with artisan granola, mixed forest berries, chia seeds, and raw wildflower honey.",
+      "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
+      "category": "Snacks",
+      "tags": [
+        "Vegetarian",
+        "High Protein",
+        "Quick Meals",
+        "Healthy"
+      ],
+      "prepTime": 5,
+      "cookTime": 0,
+      "servings": 1,
+      "difficulty": "Easy",
+      "ingredients": [
+        {
+          "name": "Greek Yogurt",
+          "quantity": 1,
+          "unit": "cups"
+        },
+        {
+          "name": "Granola",
+          "quantity": 0.5,
+          "unit": "cups"
+        },
+        {
+          "name": "Blueberries",
+          "quantity": 0.25,
+          "unit": "cups"
+        },
+        {
+          "name": "Strawberries",
+          "quantity": 0.25,
+          "unit": "cups"
+        },
+        {
+          "name": "Honey",
+          "quantity": 1,
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        "Spoon half of the Greek yogurt into a clear glass or bowl.",
+        "Add a layer of sliced strawberries, blueberries, and crunchy granola.",
+        "Top with remaining Greek yogurt, more berries, and finish with a warm honey drizzle."
+      ],
+      "nutrition": {
+        "calories": 320,
+        "protein": 22,
+        "carbs": 42,
+        "fat": 8
+      },
+      "owner": "6aa547db62d5cabdd02b9783",
+      "isPublic": true,
+      "_id": "6aa547dbaacfd13bfe773680",
+      "createdAt": "2026-09-12T12:38:51.316Z",
+      "updatedAt": "2026-09-12T12:38:51.316Z"
+    },
+    {
+      "title": "Baked Apple Cinnamon Crisp",
+      "description": "Tender spiced honeycrisp apple slices baked under a golden brown buttery oat and pecan streusel crumble.",
+      "image": "https://images.unsplash.com/photo-1568571780765-9276ac8b75a2?w=800&q=80",
+      "category": "Dessert",
+      "tags": [
+        "Vegetarian",
+        "Budget Friendly"
+      ],
+      "prepTime": 15,
+      "cookTime": 35,
+      "servings": 4,
+      "difficulty": "Easy",
+      "ingredients": [
+        {
+          "name": "Apples",
+          "quantity": 4,
+          "unit": "pieces"
+        },
+        {
+          "name": "Rolled Oats",
+          "quantity": 1,
+          "unit": "cups"
+        },
+        {
+          "name": "Butter",
+          "quantity": 4,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Brown Sugar",
+          "quantity": 0.25,
+          "unit": "cups"
+        },
+        {
+          "name": "Cinnamon",
+          "quantity": 1.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "Lemon Juice",
+          "quantity": 1,
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        "Preheat oven to 350°F (175°C). Lightly grease an 8-inch baking dish.",
+        "Peel and slice apples into thin wedges; toss with lemon juice, 1/2 tsp cinnamon, and 1 tbsp brown sugar.",
+        "In a bowl, mix rolled oats, remaining brown sugar, cinnamon, and cut in cold butter until coarse crumbs form.",
+        "Spread apple slices evenly across baking dish and scatter oat crumble generously on top.",
+        "Bake for 35 minutes until apples are bubbling tender and topping is crunchy golden brown."
+      ],
+      "nutrition": {
+        "calories": 290,
+        "protein": 4,
+        "carbs": 46,
+        "fat": 12
+      },
+      "owner": "6aa547db62d5cabdd02b9783",
+      "isPublic": true,
+      "_id": "6aa547db535a1c21039cd85e",
+      "createdAt": "2026-09-12T12:38:51.316Z",
+      "updatedAt": "2026-09-12T12:38:51.316Z"
+    },
+    {
+      "title": "Dark Chocolate Avocado Mousse",
+      "description": "Decadent, silky smooth vegan chocolate mousse whipped from velvety ripe avocados, dark Dutch cocoa, and pure maple syrup.",
+      "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=800&q=80",
+      "category": "Dessert",
+      "tags": [
+        "Vegan",
+        "Vegetarian",
+        "Healthy",
+        "Quick Meals"
+      ],
+      "prepTime": 10,
+      "cookTime": 0,
+      "servings": 2,
+      "difficulty": "Easy",
+      "ingredients": [
+        {
+          "name": "Ripe Avocado",
+          "quantity": 2,
+          "unit": "pieces"
+        },
+        {
+          "name": "Cocoa Powder",
+          "quantity": 0.5,
+          "unit": "cups"
+        },
+        {
+          "name": "Maple Syrup",
+          "quantity": 0.33,
+          "unit": "cups"
+        },
+        {
+          "name": "Almond Milk",
+          "quantity": 0.25,
+          "unit": "cups"
+        },
+        {
+          "name": "Vanilla Extract",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.25,
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        "Scoop ripe avocado flesh directly into a food processor or high-speed blender.",
+        "Add dark cocoa powder, maple syrup, almond milk, vanilla extract, and pinch of salt.",
+        "Blend on high for 2 minutes, scraping down sides once, until glossy and luxuriously smooth.",
+        "Portion into dessert glasses and chill in refrigerator for 30 minutes before enjoying."
+      ],
+      "nutrition": {
+        "calories": 280,
+        "protein": 5,
+        "carbs": 36,
+        "fat": 16
+      },
+      "owner": "6aa547db62d5cabdd02b9783",
+      "isPublic": true,
+      "_id": "6aa547dbe94bd93e261303b8",
+      "createdAt": "2026-09-12T12:38:51.316Z",
+      "updatedAt": "2026-09-12T12:38:51.316Z"
+    },
+    {
+      "title": "Custom Garlic Butter Pasta (Updated)",
+      "description": "Fresh pasta with garlic, butter, and parmesan.",
+      "category": "Dinner",
+      "tags": [
+        "Vegetarian",
+        "Quick Meals"
+      ],
+      "prepTime": 10,
+      "cookTime": 15,
+      "servings": 2,
+      "difficulty": "Easy",
+      "ingredients": [
+        {
+          "name": "Spaghetti",
+          "quantity": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Garlic",
+          "quantity": 4,
+          "unit": "cloves"
+        },
+        {
+          "name": "Butter",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Tomato",
+          "quantity": 2,
+          "unit": "pieces"
+        }
+      ],
+      "instructions": [
+        "Boil pasta",
+        "Melt butter with garlic",
+        "Toss and serve"
+      ],
+      "nutrition": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0
+      },
+      "isPublic": true,
+      "owner": "6aa562a002d0e76a8ebffc94",
+      "_id": "6aa562a071b41ba91028716a",
+      "createdAt": "2026-09-12T14:33:04.488Z",
+      "updatedAt": "2026-09-12T14:33:04.561Z"
+    },
+    {
+      "title": "Custom Fresh Tomato Salad",
+      "description": "Crisp diced tomatoes with herbs and olive oil.",
+      "category": "Lunch",
+      "tags": [
+        "Vegan",
+        "Healthy"
+      ],
+      "prepTime": 5,
+      "cookTime": 20,
+      "servings": 2,
+      "difficulty": "Easy",
+      "ingredients": [
+        {
+          "name": "Tomato",
+          "quantity": 3,
+          "unit": "pieces"
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Garlic",
+          "quantity": 1,
+          "unit": "cloves"
+        }
+      ],
+      "instructions": [
+        "Dice tomatoes",
+        "Whisk olive oil and minced garlic",
+        "Drizzle and enjoy"
+      ],
+      "nutrition": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0
+      },
+      "isPublic": true,
+      "owner": "6aa562a002d0e76a8ebffc94",
+      "_id": "6aa562a0b8e433bcbb2968d7",
+      "createdAt": "2026-09-12T14:33:04.495Z",
+      "updatedAt": "2026-09-12T14:33:04.495Z"
+    },
+    {
+      "title": "Morning Berry Smoothie",
+      "description": "Refreshing blueberry and almond milk blend.",
+      "category": "Breakfast",
+      "tags": [
+        "Vegan",
+        "Quick Meals"
+      ],
+      "prepTime": 5,
+      "cookTime": 20,
+      "servings": 1,
+      "difficulty": "Easy",
+      "ingredients": [
+        {
+          "name": "Blueberries",
+          "quantity": 1,
+          "unit": "cups"
+        },
+        {
+          "name": "Almond Milk",
+          "quantity": 1,
+          "unit": "cups"
+        },
+        {
+          "name": "Chia Seeds",
+          "quantity": 1,
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        "Blend all ingredients until smooth"
+      ],
+      "nutrition": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0
+      },
+      "isPublic": true,
+      "owner": "6aa562a002d0e76a8ebffc94",
+      "_id": "6aa562a0b97d42bd88c4872c",
+      "createdAt": "2026-09-12T14:33:04.502Z",
+      "updatedAt": "2026-09-12T14:33:04.502Z"
+    },
+    {
+      "title": "Custom Garlic Butter Pasta (Updated)",
+      "description": "Fresh pasta with garlic, butter, and parmesan.",
+      "category": "Dinner",
+      "tags": [
+        "Vegetarian",
+        "Quick Meals"
+      ],
+      "prepTime": 10,
+      "cookTime": 15,
+      "servings": 2,
+      "difficulty": "Easy",
+      "ingredients": [
+        {
+          "name": "Spaghetti",
+          "quantity": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Garlic",
+          "quantity": 4,
+          "unit": "cloves"
+        },
+        {
+          "name": "Butter",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Tomato",
+          "quantity": 2,
+          "unit": "pieces"
+        }
+      ],
+      "instructions": [
+        "Boil pasta",
+        "Melt butter with garlic",
+        "Toss and serve"
+      ],
+      "nutrition": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0
+      },
+      "isPublic": true,
+      "owner": "6aa563d412fed80aabcd74e8",
+      "_id": "6aa563d50937f01dbc7aa4ef",
+      "createdAt": "2026-09-12T14:38:13.041Z",
+      "updatedAt": "2026-09-12T14:38:13.122Z"
+    },
+    {
+      "title": "Custom Fresh Tomato Salad",
+      "description": "Crisp diced tomatoes with herbs and olive oil.",
+      "category": "Lunch",
+      "tags": [
+        "Vegan",
+        "Healthy"
+      ],
+      "prepTime": 5,
+      "cookTime": 20,
+      "servings": 2,
+      "difficulty": "Easy",
+      "ingredients": [
+        {
+          "name": "Tomato",
+          "quantity": 3,
+          "unit": "pieces"
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Garlic",
+          "quantity": 1,
+          "unit": "cloves"
+        }
+      ],
+      "instructions": [
+        "Dice tomatoes",
+        "Whisk olive oil and minced garlic",
+        "Drizzle and enjoy"
+      ],
+      "nutrition": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0
+      },
+      "isPublic": true,
+      "owner": "6aa563d412fed80aabcd74e8",
+      "_id": "6aa563d5e59949a84f4d5cb8",
+      "createdAt": "2026-09-12T14:38:13.048Z",
+      "updatedAt": "2026-09-12T14:38:13.048Z"
+    },
+    {
+      "title": "Morning Berry Smoothie",
+      "description": "Refreshing blueberry and almond milk blend.",
+      "category": "Breakfast",
+      "tags": [
+        "Vegan",
+        "Quick Meals"
+      ],
+      "prepTime": 5,
+      "cookTime": 20,
+      "servings": 1,
+      "difficulty": "Easy",
+      "ingredients": [
+        {
+          "name": "Blueberries",
+          "quantity": 1,
+          "unit": "cups"
+        },
+        {
+          "name": "Almond Milk",
+          "quantity": 1,
+          "unit": "cups"
+        },
+        {
+          "name": "Chia Seeds",
+          "quantity": 1,
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        "Blend all ingredients until smooth"
+      ],
+      "nutrition": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0
+      },
+      "isPublic": true,
+      "owner": "6aa563d412fed80aabcd74e8",
+      "_id": "6aa563d556a74ca4add2b6cd",
+      "createdAt": "2026-09-12T14:38:13.055Z",
+      "updatedAt": "2026-09-12T14:38:13.055Z"
+    },
+    {
+      "title": "Custom Garlic Butter Pasta (Updated)",
+      "description": "Fresh pasta with garlic, butter, and parmesan.",
+      "category": "Dinner",
+      "tags": [
+        "Vegetarian",
+        "Quick Meals"
+      ],
+      "prepTime": 10,
+      "cookTime": 15,
+      "servings": 2,
+      "difficulty": "Easy",
+      "ingredients": [
+        {
+          "name": "Spaghetti",
+          "quantity": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Garlic",
+          "quantity": 4,
+          "unit": "cloves"
+        },
+        {
+          "name": "Butter",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Tomato",
+          "quantity": 2,
+          "unit": "pieces"
+        }
+      ],
+      "instructions": [
+        "Boil pasta",
+        "Melt butter with garlic",
+        "Toss and serve"
+      ],
+      "nutrition": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0
+      },
+      "isPublic": true,
+      "owner": "6aa564433c1c7c79d9ceb5ce",
+      "_id": "6aa5644385f3cfb0f5126ed0",
+      "createdAt": "2026-09-12T14:40:03.942Z",
+      "updatedAt": "2026-09-12T14:40:04.046Z"
+    },
+    {
+      "title": "Custom Fresh Tomato Salad",
+      "description": "Crisp diced tomatoes with herbs and olive oil.",
+      "category": "Lunch",
+      "tags": [
+        "Vegan",
+        "Healthy"
+      ],
+      "prepTime": 5,
+      "cookTime": 20,
+      "servings": 2,
+      "difficulty": "Easy",
+      "ingredients": [
+        {
+          "name": "Tomato",
+          "quantity": 3,
+          "unit": "pieces"
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Garlic",
+          "quantity": 1,
+          "unit": "cloves"
+        }
+      ],
+      "instructions": [
+        "Dice tomatoes",
+        "Whisk olive oil and minced garlic",
+        "Drizzle and enjoy"
+      ],
+      "nutrition": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0
+      },
+      "isPublic": true,
+      "owner": "6aa564433c1c7c79d9ceb5ce",
+      "_id": "6aa564435de9bd406211fcc7",
+      "createdAt": "2026-09-12T14:40:03.955Z",
+      "updatedAt": "2026-09-12T14:40:03.955Z"
+    },
+    {
+      "title": "Morning Berry Smoothie",
+      "description": "Refreshing blueberry and almond milk blend.",
+      "category": "Breakfast",
+      "tags": [
+        "Vegan",
+        "Quick Meals"
+      ],
+      "prepTime": 5,
+      "cookTime": 20,
+      "servings": 1,
+      "difficulty": "Easy",
+      "ingredients": [
+        {
+          "name": "Blueberries",
+          "quantity": 1,
+          "unit": "cups"
+        },
+        {
+          "name": "Almond Milk",
+          "quantity": 1,
+          "unit": "cups"
+        },
+        {
+          "name": "Chia Seeds",
+          "quantity": 1,
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        "Blend all ingredients until smooth"
+      ],
+      "nutrition": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0
+      },
+      "isPublic": true,
+      "owner": "6aa564433c1c7c79d9ceb5ce",
+      "_id": "6aa56443b4396d9b3ba9cc86",
+      "createdAt": "2026-09-12T14:40:03.965Z",
+      "updatedAt": "2026-09-12T14:40:03.965Z"
+    }
+  ],
+  "mealplans": [
+    {
+      "user": "6aa547db62d5cabdd02b9783",
+      "weekStartDate": "2025-09-15",
+      "meals": [
+        {
+          "date": "2025-09-15",
+          "dayOfWeek": "Monday",
+          "mealType": "Breakfast",
+          "recipe": "6aa547dbcb9056507ed02465",
+          "servings": 4
+        },
+        {
+          "date": "2025-09-15",
+          "dayOfWeek": "Monday",
+          "mealType": "Lunch",
+          "recipe": "6aa547db308e7d4cd59a4cec",
+          "servings": 4
+        }
+      ],
+      "_id": "6aa548ba6ac246b213a6d147",
+      "createdAt": "2026-09-12T12:42:34.311Z",
+      "updatedAt": "2026-09-12T12:42:34.321Z"
+    },
+    {
+      "user": "6aa547db62d5cabdd02b9783",
+      "weekStartDate": "2026-09-07",
+      "meals": [
+        {
+          "date": "2026-09-07",
+          "dayOfWeek": "Monday",
+          "mealType": "Breakfast",
+          "recipe": "6aa547dbcb9056507ed02465",
+          "servings": 2
+        }
+      ],
+      "_id": "6aa56128ee48e75fa0c2e979",
+      "createdAt": "2026-09-12T14:26:48.737Z",
+      "updatedAt": "2026-09-12T14:26:48.737Z"
+    },
+    {
+      "user": "6aa562a002d0e76a8ebffc94",
+      "weekStartDate": "2025-09-22",
+      "meals": [
+        {
+          "date": "2025-09-22",
+          "dayOfWeek": "Monday",
+          "mealType": "Dinner",
+          "recipe": "6aa562a071b41ba91028716a",
+          "servings": 4
+        },
+        {
+          "date": "2025-09-23",
+          "dayOfWeek": "Tuesday",
+          "mealType": "Lunch",
+          "recipe": "6aa562a0b8e433bcbb2968d7",
+          "servings": 4
+        },
+        {
+          "date": "2025-09-24",
+          "dayOfWeek": "Wednesday",
+          "mealType": "Breakfast",
+          "recipe": "6aa562a0b97d42bd88c4872c",
+          "servings": 3
+        }
+      ],
+      "_id": "6aa562a0b7cc567f9d482935",
+      "createdAt": "2026-09-12T14:33:04.519Z",
+      "updatedAt": "2026-09-12T14:33:04.531Z"
+    },
+    {
+      "user": "6aa563d412fed80aabcd74e8",
+      "weekStartDate": "2025-09-22",
+      "meals": [
+        {
+          "date": "2025-09-22",
+          "dayOfWeek": "Monday",
+          "mealType": "Dinner",
+          "recipe": "6aa563d50937f01dbc7aa4ef",
+          "servings": 4
+        },
+        {
+          "date": "2025-09-23",
+          "dayOfWeek": "Tuesday",
+          "mealType": "Lunch",
+          "recipe": "6aa563d5e59949a84f4d5cb8",
+          "servings": 4
+        },
+        {
+          "date": "2025-09-24",
+          "dayOfWeek": "Wednesday",
+          "mealType": "Breakfast",
+          "recipe": "6aa563d556a74ca4add2b6cd",
+          "servings": 3
+        }
+      ],
+      "_id": "6aa563d5c1349766bba7d92e",
+      "createdAt": "2026-09-12T14:38:13.076Z",
+      "updatedAt": "2026-09-12T14:38:13.089Z"
+    },
+    {
+      "user": "6aa564433c1c7c79d9ceb5ce",
+      "weekStartDate": "2025-09-22",
+      "meals": [
+        {
+          "_id": "1a0960fa99ff2670b18",
+          "date": "2025-09-23",
+          "dayOfWeek": "Tuesday",
+          "mealType": "Lunch",
+          "recipe": "6aa564435de9bd406211fcc7",
+          "servings": 4
+        },
+        {
+          "_id": "1a0960fa9a706486428",
+          "date": "2025-09-24",
+          "dayOfWeek": "Wednesday",
+          "mealType": "Breakfast",
+          "recipe": "6aa56443b4396d9b3ba9cc86",
+          "servings": 3
+        }
+      ],
+      "_id": "6aa564432a6c7a9f2c67a859",
+      "createdAt": "2026-09-12T14:40:03.990Z",
+      "updatedAt": "2026-09-12T14:40:04.053Z"
+    }
+  ],
+  "shoppinglistitems": [
+    {
+      "user": "6aa547db62d5cabdd02b9783",
+      "weekStartDate": "2025-09-15",
+      "name": "Sourdough Bread",
+      "normalizedName": "sourdough bread",
+      "quantity": 4,
+      "unit": "slices",
+      "purchased": true,
+      "source": "generated",
+      "_id": "6aa548baf631df1d5527a71e",
+      "createdAt": "2026-09-12T12:42:34.329Z",
+      "updatedAt": "2026-09-12T14:28:16.431Z"
+    },
+    {
+      "user": "6aa547db62d5cabdd02b9783",
+      "weekStartDate": "2025-09-15",
+      "name": "Ripe Avocado",
+      "normalizedName": "ripe avocado",
+      "quantity": 2,
+      "unit": "pieces",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa548baa4305c2ebb7f86df",
+      "createdAt": "2026-09-12T12:42:34.329Z",
+      "updatedAt": "2026-09-12T12:42:34.329Z"
+    },
+    {
+      "user": "6aa547db62d5cabdd02b9783",
+      "weekStartDate": "2025-09-15",
+      "name": "Fresh Egg",
+      "normalizedName": "fresh egg",
+      "quantity": 4,
+      "unit": "pieces",
+      "purchased": true,
+      "source": "generated",
+      "_id": "6aa548baa997c47bfbbb87e4",
+      "createdAt": "2026-09-12T12:42:34.329Z",
+      "updatedAt": "2026-09-12T14:28:33.918Z"
+    },
+    {
+      "user": "6aa547db62d5cabdd02b9783",
+      "weekStartDate": "2025-09-15",
+      "name": "Lemon Juice",
+      "normalizedName": "lemon juice",
+      "quantity": 2,
+      "unit": "tbsp",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa548ba7e00e346d420d683",
+      "createdAt": "2026-09-12T12:42:34.329Z",
+      "updatedAt": "2026-09-12T12:42:34.329Z"
+    },
+    {
+      "user": "6aa547db62d5cabdd02b9783",
+      "weekStartDate": "2025-09-15",
+      "name": "Red Pepper Flake",
+      "normalizedName": "red pepper flake",
+      "quantity": 1,
+      "unit": "tsp",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa548ba47714e48c2bdcae6",
+      "createdAt": "2026-09-12T12:42:34.329Z",
+      "updatedAt": "2026-09-12T12:42:34.329Z"
+    },
+    {
+      "user": "6aa547db62d5cabdd02b9783",
+      "weekStartDate": "2025-09-15",
+      "name": "Salt",
+      "normalizedName": "salt",
+      "quantity": 1,
+      "unit": "tsp",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa548ba90f2fa23ad460095",
+      "createdAt": "2026-09-12T12:42:34.329Z",
+      "updatedAt": "2026-09-12T12:42:34.329Z"
+    },
+    {
+      "user": "6aa547db62d5cabdd02b9783",
+      "weekStartDate": "2025-09-15",
+      "name": "Black Pepper",
+      "normalizedName": "black pepper",
+      "quantity": 0.5,
+      "unit": "tsp",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa548ba172788b6c0e25736",
+      "createdAt": "2026-09-12T12:42:34.330Z",
+      "updatedAt": "2026-09-12T12:42:34.330Z"
+    },
+    {
+      "user": "6aa547db62d5cabdd02b9783",
+      "weekStartDate": "2025-09-15",
+      "name": "Rolled Oat",
+      "normalizedName": "rolled oat",
+      "quantity": 2,
+      "unit": "cups",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa548bafe260bbb92831e69",
+      "createdAt": "2026-09-12T12:42:34.330Z",
+      "updatedAt": "2026-09-12T12:42:34.330Z"
+    },
+    {
+      "user": "6aa547db62d5cabdd02b9783",
+      "weekStartDate": "2025-09-15",
+      "name": "Almond Milk",
+      "normalizedName": "almond milk",
+      "quantity": 3,
+      "unit": "cups",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa548ba2a378b347804c912",
+      "createdAt": "2026-09-12T12:42:34.330Z",
+      "updatedAt": "2026-09-12T12:42:34.330Z"
+    },
+    {
+      "user": "6aa547db62d5cabdd02b9783",
+      "weekStartDate": "2025-09-15",
+      "name": "Chia Seed",
+      "normalizedName": "chia seed",
+      "quantity": 4,
+      "unit": "tbsp",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa548bac8e34b264230543e",
+      "createdAt": "2026-09-12T12:42:34.330Z",
+      "updatedAt": "2026-09-12T12:42:34.330Z"
+    },
+    {
+      "user": "6aa547db62d5cabdd02b9783",
+      "weekStartDate": "2025-09-15",
+      "name": "Maple Syrup",
+      "normalizedName": "maple syrup",
+      "quantity": 4,
+      "unit": "tbsp",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa548ba94f69794cc23572b",
+      "createdAt": "2026-09-12T12:42:34.330Z",
+      "updatedAt": "2026-09-12T12:42:34.330Z"
+    },
+    {
+      "user": "6aa547db62d5cabdd02b9783",
+      "weekStartDate": "2025-09-15",
+      "name": "Vanilla Extract",
+      "normalizedName": "vanilla extract",
+      "quantity": 2,
+      "unit": "tsp",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa548ba6b9151620b146465",
+      "createdAt": "2026-09-12T12:42:34.330Z",
+      "updatedAt": "2026-09-12T12:42:34.330Z"
+    },
+    {
+      "user": "6aa547db62d5cabdd02b9783",
+      "weekStartDate": "2025-09-15",
+      "name": "Blueberry",
+      "normalizedName": "blueberry",
+      "quantity": 1,
+      "unit": "cups",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa548ba7a8f07a11a44f560",
+      "createdAt": "2026-09-12T12:42:34.330Z",
+      "updatedAt": "2026-09-12T12:42:34.330Z"
+    },
+    {
+      "user": "6aa547db62d5cabdd02b9783",
+      "weekStartDate": "2025-09-15",
+      "name": "Raspberry",
+      "normalizedName": "raspberry",
+      "quantity": 1,
+      "unit": "cups",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa548ba2b1a0b06618e941c",
+      "createdAt": "2026-09-12T12:42:34.330Z",
+      "updatedAt": "2026-09-12T12:42:34.330Z"
+    },
+    {
+      "user": "6aa547db62d5cabdd02b9783",
+      "name": "Fresh Rosemary",
+      "normalizedName": "fresh rosemary",
+      "quantity": 2,
+      "unit": "bunches",
+      "purchased": true,
+      "source": "manual",
+      "_id": "6aa548ba42571967d35cb4d6",
+      "createdAt": "2026-09-12T12:42:34.338Z",
+      "updatedAt": "2026-09-12T12:42:34.345Z"
+    },
+    {
+      "user": "6aa547db62d5cabdd02b9783",
+      "weekStartDate": "2026-09-07",
+      "name": "Sourdough Bread",
+      "normalizedName": "sourdough bread",
+      "quantity": 2,
+      "unit": "slices",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa56142464b338b0504014a",
+      "createdAt": "2026-09-12T14:27:14.843Z",
+      "updatedAt": "2026-09-12T14:27:14.843Z"
+    },
+    {
+      "user": "6aa547db62d5cabdd02b9783",
+      "weekStartDate": "2026-09-07",
+      "name": "Ripe Avocado",
+      "normalizedName": "ripe avocado",
+      "quantity": 1,
+      "unit": "pieces",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa5614267bcd1d0e5760f91",
+      "createdAt": "2026-09-12T14:27:14.843Z",
+      "updatedAt": "2026-09-12T14:27:14.843Z"
+    },
+    {
+      "user": "6aa547db62d5cabdd02b9783",
+      "weekStartDate": "2026-09-07",
+      "name": "Fresh Egg",
+      "normalizedName": "fresh egg",
+      "quantity": 2,
+      "unit": "pieces",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa56142eddd8e4d0b9a34f2",
+      "createdAt": "2026-09-12T14:27:14.843Z",
+      "updatedAt": "2026-09-12T14:27:14.844Z"
+    },
+    {
+      "user": "6aa547db62d5cabdd02b9783",
+      "weekStartDate": "2026-09-07",
+      "name": "Lemon Juice",
+      "normalizedName": "lemon juice",
+      "quantity": 1,
+      "unit": "tbsp",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa56142c53845b597f0df77",
+      "createdAt": "2026-09-12T14:27:14.844Z",
+      "updatedAt": "2026-09-12T14:27:14.844Z"
+    },
+    {
+      "user": "6aa547db62d5cabdd02b9783",
+      "weekStartDate": "2026-09-07",
+      "name": "Red Pepper Flake",
+      "normalizedName": "red pepper flake",
+      "quantity": 0.5,
+      "unit": "tsp",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa56142e075028fb7194413",
+      "createdAt": "2026-09-12T14:27:14.844Z",
+      "updatedAt": "2026-09-12T14:27:14.844Z"
+    },
+    {
+      "user": "6aa547db62d5cabdd02b9783",
+      "weekStartDate": "2026-09-07",
+      "name": "Salt",
+      "normalizedName": "salt",
+      "quantity": 0.5,
+      "unit": "tsp",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa56142148b72c1f9c31981",
+      "createdAt": "2026-09-12T14:27:14.844Z",
+      "updatedAt": "2026-09-12T14:27:14.844Z"
+    },
+    {
+      "user": "6aa547db62d5cabdd02b9783",
+      "weekStartDate": "2026-09-07",
+      "name": "Black Pepper",
+      "normalizedName": "black pepper",
+      "quantity": 0.25,
+      "unit": "tsp",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa56142522c5ef8836fabf8",
+      "createdAt": "2026-09-12T14:27:14.844Z",
+      "updatedAt": "2026-09-12T14:27:14.844Z"
+    },
+    {
+      "user": "6aa547db62d5cabdd02b9783",
+      "name": "Fresh Basil",
+      "normalizedName": "fresh basil",
+      "quantity": 2,
+      "unit": "bunches",
+      "purchased": false,
+      "source": "manual",
+      "_id": "6aa561ddbeefa65dd0c29226",
+      "createdAt": "2026-09-12T14:29:49.372Z",
+      "updatedAt": "2026-09-12T14:29:49.372Z"
+    },
+    {
+      "user": "6aa562a002d0e76a8ebffc94",
+      "weekStartDate": "2025-09-22",
+      "name": "Spaghetti",
+      "normalizedName": "spaghetti",
+      "quantity": 400,
+      "unit": "g",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa562a09cf8ae87315638a7",
+      "createdAt": "2026-09-12T14:33:04.540Z",
+      "updatedAt": "2026-09-12T14:33:04.540Z"
+    },
+    {
+      "user": "6aa562a002d0e76a8ebffc94",
+      "weekStartDate": "2025-09-22",
+      "name": "Garlic",
+      "normalizedName": "garlic",
+      "quantity": 10,
+      "unit": "cloves",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa562a074469f3797c89502",
+      "createdAt": "2026-09-12T14:33:04.540Z",
+      "updatedAt": "2026-09-12T14:33:04.540Z"
+    },
+    {
+      "user": "6aa562a002d0e76a8ebffc94",
+      "weekStartDate": "2025-09-22",
+      "name": "Butter",
+      "normalizedName": "butter",
+      "quantity": 4,
+      "unit": "tbsp",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa562a055168a708b6599bd",
+      "createdAt": "2026-09-12T14:33:04.540Z",
+      "updatedAt": "2026-09-12T14:33:04.540Z"
+    },
+    {
+      "user": "6aa562a002d0e76a8ebffc94",
+      "weekStartDate": "2025-09-22",
+      "name": "Tomato",
+      "normalizedName": "tomato",
+      "quantity": 10,
+      "unit": "pieces",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa562a0189f3914288bd729",
+      "createdAt": "2026-09-12T14:33:04.540Z",
+      "updatedAt": "2026-09-12T14:33:04.540Z"
+    },
+    {
+      "user": "6aa562a002d0e76a8ebffc94",
+      "weekStartDate": "2025-09-22",
+      "name": "Olive Oil",
+      "normalizedName": "olive oil",
+      "quantity": 4,
+      "unit": "tbsp",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa562a04234b122737217b9",
+      "createdAt": "2026-09-12T14:33:04.540Z",
+      "updatedAt": "2026-09-12T14:33:04.540Z"
+    },
+    {
+      "user": "6aa562a002d0e76a8ebffc94",
+      "weekStartDate": "2025-09-22",
+      "name": "Blueberry",
+      "normalizedName": "blueberry",
+      "quantity": 3,
+      "unit": "cups",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa562a097f27434d272d5ac",
+      "createdAt": "2026-09-12T14:33:04.540Z",
+      "updatedAt": "2026-09-12T14:33:04.540Z"
+    },
+    {
+      "user": "6aa562a002d0e76a8ebffc94",
+      "weekStartDate": "2025-09-22",
+      "name": "Almond Milk",
+      "normalizedName": "almond milk",
+      "quantity": 3,
+      "unit": "cups",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa562a0e2b194dd935df02b",
+      "createdAt": "2026-09-12T14:33:04.540Z",
+      "updatedAt": "2026-09-12T14:33:04.540Z"
+    },
+    {
+      "user": "6aa562a002d0e76a8ebffc94",
+      "weekStartDate": "2025-09-22",
+      "name": "Chia Seed",
+      "normalizedName": "chia seed",
+      "quantity": 3,
+      "unit": "tbsp",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa562a0df13c9157656b3db",
+      "createdAt": "2026-09-12T14:33:04.540Z",
+      "updatedAt": "2026-09-12T14:33:04.540Z"
+    },
+    {
+      "user": "6aa562a002d0e76a8ebffc94",
+      "name": "Fresh Basil",
+      "normalizedName": "fresh basil",
+      "quantity": 2,
+      "unit": "bunches",
+      "purchased": true,
+      "source": "manual",
+      "_id": "6aa562a0572d8a866b290de7",
+      "createdAt": "2026-09-12T14:33:04.546Z",
+      "updatedAt": "2026-09-12T14:33:04.551Z"
+    },
+    {
+      "user": "6aa563d412fed80aabcd74e8",
+      "weekStartDate": "2025-09-22",
+      "name": "Spaghetti",
+      "normalizedName": "spaghetti",
+      "quantity": 400,
+      "unit": "g",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa563d574d80243eedc3232",
+      "createdAt": "2026-09-12T14:38:13.098Z",
+      "updatedAt": "2026-09-12T14:38:13.098Z"
+    },
+    {
+      "user": "6aa563d412fed80aabcd74e8",
+      "weekStartDate": "2025-09-22",
+      "name": "Garlic",
+      "normalizedName": "garlic",
+      "quantity": 10,
+      "unit": "cloves",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa563d55be95b17855b6ddf",
+      "createdAt": "2026-09-12T14:38:13.098Z",
+      "updatedAt": "2026-09-12T14:38:13.098Z"
+    },
+    {
+      "user": "6aa563d412fed80aabcd74e8",
+      "weekStartDate": "2025-09-22",
+      "name": "Butter",
+      "normalizedName": "butter",
+      "quantity": 4,
+      "unit": "tbsp",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa563d572c355d92df3c4f0",
+      "createdAt": "2026-09-12T14:38:13.098Z",
+      "updatedAt": "2026-09-12T14:38:13.098Z"
+    },
+    {
+      "user": "6aa563d412fed80aabcd74e8",
+      "weekStartDate": "2025-09-22",
+      "name": "Tomato",
+      "normalizedName": "tomato",
+      "quantity": 10,
+      "unit": "pieces",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa563d5cf64d088c5152c7a",
+      "createdAt": "2026-09-12T14:38:13.098Z",
+      "updatedAt": "2026-09-12T14:38:13.098Z"
+    },
+    {
+      "user": "6aa563d412fed80aabcd74e8",
+      "weekStartDate": "2025-09-22",
+      "name": "Olive Oil",
+      "normalizedName": "olive oil",
+      "quantity": 4,
+      "unit": "tbsp",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa563d5034fae080842e507",
+      "createdAt": "2026-09-12T14:38:13.098Z",
+      "updatedAt": "2026-09-12T14:38:13.098Z"
+    },
+    {
+      "user": "6aa563d412fed80aabcd74e8",
+      "weekStartDate": "2025-09-22",
+      "name": "Blueberry",
+      "normalizedName": "blueberry",
+      "quantity": 3,
+      "unit": "cups",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa563d53794ac742ecc769d",
+      "createdAt": "2026-09-12T14:38:13.098Z",
+      "updatedAt": "2026-09-12T14:38:13.098Z"
+    },
+    {
+      "user": "6aa563d412fed80aabcd74e8",
+      "weekStartDate": "2025-09-22",
+      "name": "Almond Milk",
+      "normalizedName": "almond milk",
+      "quantity": 3,
+      "unit": "cups",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa563d5eb61f11717aab113",
+      "createdAt": "2026-09-12T14:38:13.098Z",
+      "updatedAt": "2026-09-12T14:38:13.098Z"
+    },
+    {
+      "user": "6aa563d412fed80aabcd74e8",
+      "weekStartDate": "2025-09-22",
+      "name": "Chia Seed",
+      "normalizedName": "chia seed",
+      "quantity": 3,
+      "unit": "tbsp",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa563d51109604cfa0c95d5",
+      "createdAt": "2026-09-12T14:38:13.098Z",
+      "updatedAt": "2026-09-12T14:38:13.098Z"
+    },
+    {
+      "user": "6aa563d412fed80aabcd74e8",
+      "name": "Fresh Basil",
+      "normalizedName": "fresh basil",
+      "quantity": 2,
+      "unit": "bunches",
+      "purchased": true,
+      "source": "manual",
+      "_id": "6aa563d5aae10920107413b5",
+      "createdAt": "2026-09-12T14:38:13.105Z",
+      "updatedAt": "2026-09-12T14:38:13.110Z"
+    },
+    {
+      "user": "6aa564433c1c7c79d9ceb5ce",
+      "name": "Fresh Basil",
+      "normalizedName": "fresh basil",
+      "quantity": 2,
+      "unit": "bunches",
+      "purchased": true,
+      "source": "manual",
+      "_id": "6aa56444446dfbfb6720642b",
+      "createdAt": "2026-09-12T14:40:04.029Z",
+      "updatedAt": "2026-09-12T14:40:04.035Z"
+    },
+    {
+      "user": "6aa564433c1c7c79d9ceb5ce",
+      "weekStartDate": "2025-09-22",
+      "name": "Tomato",
+      "normalizedName": "tomato",
+      "quantity": 6,
+      "unit": "pieces",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa56444558bb259b60a713f",
+      "createdAt": "2026-09-12T14:40:04.062Z",
+      "updatedAt": "2026-09-12T14:40:04.062Z"
+    },
+    {
+      "user": "6aa564433c1c7c79d9ceb5ce",
+      "weekStartDate": "2025-09-22",
+      "name": "Olive Oil",
+      "normalizedName": "olive oil",
+      "quantity": 4,
+      "unit": "tbsp",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa56444d02ea40feaebc288",
+      "createdAt": "2026-09-12T14:40:04.062Z",
+      "updatedAt": "2026-09-12T14:40:04.062Z"
+    },
+    {
+      "user": "6aa564433c1c7c79d9ceb5ce",
+      "weekStartDate": "2025-09-22",
+      "name": "Garlic",
+      "normalizedName": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa5644447a12a6065823dde",
+      "createdAt": "2026-09-12T14:40:04.062Z",
+      "updatedAt": "2026-09-12T14:40:04.062Z"
+    },
+    {
+      "user": "6aa564433c1c7c79d9ceb5ce",
+      "weekStartDate": "2025-09-22",
+      "name": "Blueberry",
+      "normalizedName": "blueberry",
+      "quantity": 3,
+      "unit": "cups",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa564441d73fbcc62bdf327",
+      "createdAt": "2026-09-12T14:40:04.062Z",
+      "updatedAt": "2026-09-12T14:40:04.062Z"
+    },
+    {
+      "user": "6aa564433c1c7c79d9ceb5ce",
+      "weekStartDate": "2025-09-22",
+      "name": "Almond Milk",
+      "normalizedName": "almond milk",
+      "quantity": 3,
+      "unit": "cups",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa56444843e98ed47fd0b6d",
+      "createdAt": "2026-09-12T14:40:04.062Z",
+      "updatedAt": "2026-09-12T14:40:04.062Z"
+    },
+    {
+      "user": "6aa564433c1c7c79d9ceb5ce",
+      "weekStartDate": "2025-09-22",
+      "name": "Chia Seed",
+      "normalizedName": "chia seed",
+      "quantity": 3,
+      "unit": "tbsp",
+      "purchased": false,
+      "source": "generated",
+      "_id": "6aa56444f00ca884e5487d16",
+      "createdAt": "2026-09-12T14:40:04.062Z",
+      "updatedAt": "2026-09-12T14:40:04.062Z"
+    }
+  ]
+}
